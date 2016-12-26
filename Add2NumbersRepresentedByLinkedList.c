@@ -36,6 +36,7 @@ void printList(struct node* head) {
     printf("%d ", head->data);
     head = head->next;
   }
+  printf("\n");
 }
 struct node* listAddition(struct node* first, struct node* second) {
   struct node *result = NULL;
